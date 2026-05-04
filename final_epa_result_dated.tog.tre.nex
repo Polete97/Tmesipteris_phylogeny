@@ -1,0 +1,183 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=81;
+	taxlabels
+	ERR2040884[&!name="Sceptridium dissectum ERR2040884"]
+	JP00023[&!name="T. lanceolata JP00023"]
+	JP00024[&!name="T. lanceolata NZ 4x JP00024",!color=#009999]
+	JP00026N[&!name="T.norfolkensis NF 4x JP00026N"]
+	JP00026S[&!name="T. sigmatifolia NZ 4x JP00026S",!color=#00cccc]
+	JP00027S[&!name="T. sigmatifolia NZ 4x JP00027S",!color=#00cccc]
+	JP00029[&!name="T. tannensis NZ 4x JP00029",!color=#339900]
+	JP00031[&!name="T. tannensis NZ 4x JP00031",!color=#339900]
+	JP00037[&!name="T. gracilis PF 4x JP00037",!color=#6666ff]
+	JP00046[&!name="T. oblonguifolia JP00046"]
+	JP00052[&!name="T. sigmatifolia NC 4x JP00052",!color=#00cccc]
+	JP00058[&!name="T. sigmatifolia NC 4x JP00058",!color=#00cccc]
+	JP00061[&!name="T. vieillardii JP00061"]
+	JP00067[&!name="T. gracilis JP00067"]
+	JP00074[&!name="T. solomonensis JP00074"]
+	JP00081[&!name="T. 'goodenough' PG JP00081"]
+	JP00091[&!name="T. ovata JP00091"]
+	JP00115[&!name="T. sigmatifolia JP00115"]
+	JP00120[&!name="T. elongata NZ 4x JP00120",!color=#9900cc]
+	JP00123[&!name="T. parva JP00123"]
+	JP00132[&!name="T. parva JP00132"]
+	JP00134[&!name="T. tannensis NZ 4x JP00134",!color=#339900]
+	JP00135[&!name="T. tannensis NZ 4x JP00135",!color=#339900]
+	JP00148bis[&!name="T. parva JP00148 (*)"]
+	JP00149[&!name="T. obliqua TS 8x JP00149",!color=#cc33ff]
+	JP00150[&!name="T. obliqua TS 8x JP00150",!color=#cc33ff]
+	JP00151[&!name="P. complanatum JP00151",!color=#000000]
+	JP00152[&!name="P. nudum JP00152",!color=#000000]
+	JP00153[&!name="P. nudum JP00153",!color=#000000]
+	JP00154[&!name="P. complanatum JP00154",!color=#000000]
+	JP00155[&!name="P. nudum JP00155",!color=#000000]
+	JP00156[&!name="T. truncata AU 8x JP00156",!color=#00cc33]
+	JP00158[&!name="T. sigmatifolia NC 4x JP00158",!color=#00cccc]
+	JP00159[&!name="T. alticola NC 4x JP00159",!color=#33ff00]
+	JP00160[&!name="T. gracilis PF 4x JP00160",!color=#6666ff]
+	JP00165[&!name="T. vieillardii NC x4 JP00165",!color=#009966]
+	JP00166[&!name="T. 'cumberland' JP00166"]
+	JP00167[&!name="T. vanuatensis VU JP00167",!color=#6666ff]
+	JP00169[&!name="T. cf. vieillardii NC x8 JP00169",!color=#009966]
+	JP00170[&!name="T. sigmatifolia NC 4x JP00170",!color=#00cccc]
+	JP00171[&!name="T.sigmatifolia NC 4x JP00171",!color=#00cccc]
+	JP00175[&!name="T. vanuatensis VU 4x JP00175",!color=#6666ff]
+	JP00178[&!name="T. lanceolata NC 4x JP00178",!color=#009999]
+	JP00180[&!name="T. parva AU 4x JP00180",!color=#99ccff]
+	JP00182bis[&!name="T. horomaka JP00182bis"]
+	JP00183[&!name="T. horomaka3 NZ 8x JP00183",!color=#00cc99]
+	JP00184bis[&!color=#00cc99,!name="T. horomaka NZ 8x JP00184"]
+	JP00185[&!name="T. mesipteris PH 4x JP00185"]
+	JP00188[&!name="T. truncata AU 8x JP00188",!color=#00cc33]
+	JP00189[&!name="T. truncata AU 8x JP00189",!color=#00cc33]
+	JP00189_2[&!name="T. truncata AU  8x JP00189_2",!color=#00cc33]
+	JP00190bis[&!name="T. gracilis PF 4x JP00190",!color=#6666ff]
+	JP00191bis[&!name="T. gracilis PF 4x JP00191",!color=#6666ff]
+	JP00193bis[&!name="T. tannensis terr. form NZ JP00193",!color=#339900]
+	JP00194bis[&!name="T. horomaka NZ 8x JP00194",!color=#00cc99]
+	JP00197bis[&!name="T. 'tomanivi' FI JP00197"]
+	JP00199[&!name="T. horomaka NZ 8x JP00199",!color=#00cc99]
+	JP00200[&!name="T. horomaka NZ 8x JP00200",!color=#00cc99]
+	JP00202[&!name="T. elongata NZ 4x JP00202",!color=#9900cc]
+	JP00205[&!name="T. elongata NZ 4x JP00205",!color=#9900cc]
+	OH840[&!color=#009999,!name="T. lanceolata NC 4x OH840"]
+	OH841[&!name="T. vieillardii NC 4x OH841",!color=#009966]
+	OH842[&!name="T. vieillardii NC 4x OH842",!color=#009966]
+	OH843[&!name="T. oblanceolata NC 8x OH843",!color=#669900]
+	OH844[&!name="T. oblanceolata NC 8x OH844",!color=#669900]
+	OH845[&!name="T. oblanceolata NC 8x OH845",!color=#669900]
+	OH846[&!name="T. oblanceolata NC 8x OH846",!color=#669900]
+	OH847[&!name="T. sigmatifolia NC 4x OH847",!color=#00cccc]
+	OH848[&!color=#009999,!name="T. lanceolata NC 4x OH848"]
+	OH850[&!color=#009999,!name="T. lanceolata NC 4x OH850"]
+	OH851a[&!name="T. alticola NC 4x OH851a",!color=#33ff00]
+	OH851b[&!name="T. alticola NC 4x OH851b",!color=#33ff00]
+	OH852[&!name="T. alticola NC 4x OH852",!color=#33ff00]
+	OH853[&!name="T. sigmatifolia NC 4x OH853",!color=#00cccc]
+	OH854[&!color=#009999,!name="T. lanceolata NC 4x OH854"]
+	OH855[&!name="T. truncata NC 8x OH855",!color=#00cc33]
+	SRR17253351[&!name="Ophioglossum vulgatum"]
+	SRR2103719[&!name="Sceptridium japonicum 6x"]
+	SRR4061752[&!name="Equisetum telmateia"]
+	SRR6920622[&!name="Ophioglossum thermale"]
+	SRR6920624[&!name="Equisetum arvense"]
+;
+end;
+
+begin trees;
+	tree TREE1 = [&R] ((((((((((((JP00189[&rate=15.1470839134509,branch_length=0.0153989999999999]:0.76234,JP00189_2[&rate=15.1470839134509,branch_length=0.0140129999999999]:0.76234)[&rate=15.1470839134509,branch_length=0.00775400000000004,reltime=9.69801360688402E-4,divtime=0.762339778551851,divtime_95%_CI={15.6279654603129,0.0}]:0.402404,JP00188[&rate=13.8881719536525,branch_length=0.015862]:1.164744)[&rate=13.8881719536525,branch_length=0.00264699999999995,reltime=0.00148171507585006,divtime=1.16474402757969,divtime_95%_CI={23.8772525653836,0.0}]:0.149822,JP00156[&rate=11.7689067243858,branch_length=0.013062]:1.314566)[&rate=11.7689067243858,branch_length=0.00530300000000006,reltime=0.00167230891417763,divtime=1.31456570281517,divtime_95%_CI={26.9485969077111,0.0}]:0.354202,OH855[&rate=9.12730799376676,branch_length=0.0106660000000001]:1.668768)[&rate=9.12730799376676,branch_length=0.00384600000000002,reltime=0.00212290301983164,divtime=1.66876793911356,divtime_95%_CI={34.2097427518279,0.0}]:0.331232,(((OH846[&rate=7.42509686647781,branch_length=0.010262]:1.188977,OH845[&rate=7.42509686647781,branch_length=0.0122909999999999]:1.188977)[&rate=7.42509686647781,branch_length=0.003664,reltime=0.00151254216660652,divtime=1.18897653383643,divtime_95%_CI={24.3740189436468,0.0}]:0.387899,OH843[&rate=6.94815808478544,branch_length=0.011421]:1.576876)[&rate=6.94815808478544,branch_length=0.00374000000000008,reltime=0.00200600374237961,divtime=1.57687595700457,divtime_95%_CI={32.3259571185936,0.0}]:0.423124,OH844[&rate=0.427630643882529,branch_length=0.046614]:2.0)[&rate=0.427630643882529,branch_length=0.00196099999999999,reltime=0.00254427589369834,divtime=2.0,divtime_95%_CI={41.0,2.0}]:0.0)[&rate=0.427630643882529,branch_length=0.00434999999999997,reltime=0.00254427589369834,divtime=2.0,divtime_95%_CI={41.0,2.0}]:7.996248,(((OH852[&rate=4.79842035727228,branch_length=0.00767600000000002]:1.495925,OH851b[&rate=4.79842035727228,branch_length=0.0108630000000001]:1.495925)[&rate=4.79842035727228,branch_length=0.003077,reltime=0.00190302319574814,divtime=1.49592518677833,divtime_95%_CI={1.49592518677833,1.49592518677833}]:0.504075,(JP00159[&rate=27.2288914476163,branch_length=0.03267]:1.463147,OH851a[&rate=27.2288914476163,branch_length=0.078624]:1.463147)[&rate=27.2288914476163,branch_length=0.0185960000000001,reltime=0.00186132484386307,divtime=1.46314701835064,divtime_95%_CI={1.46314701835064,1.46314701835064}]:0.536853)[&rate=0.335566567323812,branch_length=0.00299300000000002,reltime=0.00254427589369834,divtime=2.0,divtime_95%_CI={2.0,2.0}]:7.011224,JP00197bis[&rate=3.5177148744638,branch_length=0.0823470000000001]:9.011224)[&rate=3.5177148744638,branch_length=0.00440799999999997,reltime=0.0114635196189288,divtime=9.01122370205339,divtime_95%_CI={9.01122370205339,9.01122370205339}]:0.985024)[&rate=0.628253495765278,branch_length=0.00271699999999997,reltime=0.0127166058289565,divtime=9.99624754567928,divtime_95%_CI={9.99624754567928,9.99624754567928}]:3.399543,((((OH841[&rate=4.3225331049996,branch_length=0.042254]:9.003608,JP00169[&rate=4.3225331049996,branch_length=0.058011]:9.003608)[&rate=4.3225331049996,branch_length=0.00836630999999999,reltime=0.0114538307629878,divtime=9.00360750291007,divtime_95%_CI={9.00360750291006,9.00360750291007}]:1.521463,JP00061[&rate=4.69916597723919,branch_length=0.0808402]:10.525071)[&rate=4.69916597723919,branch_length=0.00833969000000001,reltime=0.0133893416767904,divtime=10.5250705789833,divtime_95%_CI={10.5250705789833,10.5250705789833}]:1.395067,(JP00165[&rate=1.12397267886632,branch_length=0.019766]:9.79124,OH842[&rate=1.12397267886632,branch_length=0.00991599999999992]:9.79124)[&rate=1.12397267886632,branch_length=0.00304400000000005,reltime=0.0124558078479285,divtime=9.79123991920765,divtime_95%_CI={9.79123991920765,9.79123991920765}]:2.128897)[&rate=2.29820237835465,branch_length=0.00293916000000005,reltime=0.0151640587309218,divtime=11.9201370955721,divtime_95%_CI={11.9201370955721,11.9201370955721}]:1.005312,JP00026N[&rate=2.39135207695859,branch_length=0.0424862]:12.925449)[&rate=2.39135207695859,branch_length=0.00143083999999993,reltime=0.0164429539351397,divtime=12.9254488287733,divtime_95%_CI={12.9254488287733,12.9254488287733}]:0.470342)[&rate=0.545229667724526,branch_length=0.00691900000000001,reltime=0.0170412932653398,divtime=13.3957903759947,divtime_95%_CI={13.3957903759947,13.3957903759947}]:9.975384,(((((((JP00184bis[&rate=0.856495888615982,branch_length=0.014642]:15.069644,JP00183[&rate=0.856495888615982,branch_length=0.018413]:15.069644)[&rate=0.856495888615982,branch_length=0.00202393999999995,reltime=0.0191706657557847,divtime=15.0696438253938,divtime_95%_CI={15.0696438253938,15.0696438253938}]:1.85754,JP00182bis[&rate=0.874398496677205,branch_length=0.0200346]:16.927184)[&rate=0.874398496677205,branch_length=2.73057999999993E-4,reltime=0.0215337127089586,divtime=16.9271836928482,divtime_95%_CI={16.9271836928482,16.9271836928482}]:0.245477,JP00200[&rate=0.889649911776351,branch_length=0.020051]:17.172661)[&rate=0.889649911776351,branch_length=0.00135300000000005,reltime=0.0218459936667114,divtime=17.1726609687413,divtime_95%_CI={17.1726609687413,17.1726609687413}]:1.195486,JP00199[&rate=0.983402028932203,branch_length=0.030504]:18.368147)[&rate=0.983402028932203,branch_length=0.00123200000000001,reltime=0.0233668166130078,divtime=18.3681468435736,divtime_95%_CI={18.3681468435736,18.3681468435736}]:0.984794,JP00194bis[&rate=1.37358603402654,branch_length=0.0833680000000001]:19.352941)[&rate=1.37358603402654,branch_length=0.00109399999999993,reltime=0.024619610448849,divtime=19.352940858204,divtime_95%_CI={19.352940858204,19.352940858204}]:0.626076,(((JP00120[&rate=5.81729212234143,branch_length=0.118398]:14.945677,JP00202[&rate=5.81729212234143,branch_length=0.103323]:14.945677)[&rate=5.81729212234143,branch_length=0.00673400000000002,reltime=0.0190129634758676,divtime=14.9456774895827,divtime_95%_CI={14.9456774895827,14.9456774895827}]:0.909951,JP00205[&rate=6.11131246116883,branch_length=0.14292]:15.855629)[&rate=6.11131246116883,branch_length=0.00607599999999997,reltime=0.020170546739417,divtime=15.8556285419953,divtime_95%_CI={15.8556285419953,15.8556285419953}]:0.781536,(JP00150[&rate=4.51480396593643,branch_length=0.0640350000000001]:13.39469,JP00149[&rate=4.51480396593643,branch_length=0.092426]:13.39469)[&rate=4.51480396593643,branch_length=0.0186229999999999,reltime=0.0170398939720407,divtime=13.3946904219351,divtime_95%_CI={13.3946904219351,13.3946904219351}]:3.242474)[&rate=5.25274954064644,branch_length=0.022331,reltime=0.0211647685270619,divtime=16.6371646875897,divtime_95%_CI={16.6371646875897,16.6371646875897}]:3.341852)[&rate=2.68609445278291,branch_length=0.00192700000000001,reltime=0.0254160658385366,divtime=19.9790171352777,divtime_95%_CI={19.9790171352777,19.9790171352777}]:0.563931,((((JP00134[&rate=1.77072420524581,branch_length=0.0686599999999999]:16.385079,JP00031[&rate=1.77072420524581,branch_length=0.019841]:16.385079)[&rate=1.77072420524581,branch_length=0.00373100000000004,reltime=0.0208440810929773,divtime=16.3850792633015,divtime_95%_CI={16.3850792633015,16.3850792633015}]:1.656304,JP00029[&rate=1.35940162624866,branch_length=0.014117]:18.041384)[&rate=1.35940162624866,branch_length=8.83999999999996E-4,reltime=0.0229511285874131,divtime=18.0413835183979,divtime_95%_CI={18.0413835183979,18.0413835183979}]:0.511176,JP00193bis[&rate=1.48508186981508,branch_length=0.0595249999999999]:18.552559)[&rate=1.48508186981508,branch_length=0.00124500000000005,reltime=0.0236014147007522,divtime=18.5525593031857,divtime_95%_CI={18.5525593031857,18.5525593031857}]:0.658999,JP00135[&rate=1.91591017791153,branch_length=0.092033]:19.211558)[&rate=1.91591017791153,branch_length=0.00324499999999994,reltime=0.0244397523205866,divtime=19.2115582913936,divtime_95%_CI={19.2115582913936,19.2115582913936}]:1.33139)[&rate=2.26854925027396,branch_length=0.008162,reltime=0.0261334642896609,divtime=20.5429484706342,divtime_95%_CI={20.5429484706342,20.5429484706342}]:2.828226)[&rate=0.737338584421938,branch_length=0.009876,reltime=0.0297313584059179,divtime=23.3711748631951,divtime_95%_CI={23.3711748631951,23.3711748631951}]:10.528825,((((((((((((JP00175[&rate=0.850699580144171,branch_length=0.0157320000000001]:18.185883,JP00037[&rate=0.850699580144171,branch_length=0.024621]:18.185883)[&rate=0.850699580144171,branch_length=0.0029210999999999,reltime=0.0231349515582681,divtime=18.1858827618252,divtime_95%_CI={18.1858827618252,18.1858827618252}]:2.699206,JP00185[&rate=0.891688895634117,branch_length=0.0272832]:20.885089)[&rate=0.891688895634117,branch_length=9.47903999999999E-4,reltime=0.0265687136855573,divtime=20.88508856399,divtime_95%_CI={20.88508856399,20.88508856399}]:0.835635,(JP00190bis[&rate=0.474511332152049,branch_length=0.00689200000000001]:10.641344,JP00191bis[&rate=0.474511332152049,branch_length=0.00598700000000008]:10.641344)[&rate=0.474511332152049,branch_length=0.00668799999999992,reltime=0.0135372570296847,divtime=10.6413436241044,divtime_95%_CI={10.6413436241044,10.6413436241044}]:11.07938)[&rate=0.65047404693234,branch_length=5.82000000000082E-4,reltime=0.0276317570907641,divtime=21.7207238878476,divtime_95%_CI={21.7207238878476,21.7207238878476}]:0.703329,(JP00074[&rate=1.98165173717597,branch_length=0.100151]:15.828761,JP00160[&rate=1.98165173717597,branch_length=0.0158986999999999]:15.828761)[&rate=1.98165173717597,branch_length=0.0166263000000001,reltime=0.0201363670928315,divtime=15.828760664443,divtime_95%_CI={15.828760664443,15.828760664443}]:6.595293)[&rate=1.13534709454484,branch_length=8.11565999999986E-4,reltime=0.0285264891753796,divtime=22.424053339525,divtime_95%_CI={22.424053339525,22.424053339525}]:0.561903,JP00067[&rate=1.47372946758476,branch_length=0.0931478]:22.985956)[&rate=1.47372946758476,branch_length=5.72433999999955E-4,reltime=0.0292413067002577,divtime=22.9859558648357,divtime_95%_CI={22.9859558648357,22.9859558648357}]:0.305333,JP00167[&rate=1.66357959441597,branch_length=0.054621]:23.291289)[&rate=1.66357959441597,branch_length=0.00207800000000002,reltime=0.0296297321287986,divtime=23.2912886548078,divtime_95%_CI={23.2912886548078,23.2912886548078}]:0.981901,(((((OH850[&rate=1.4837683401159,branch_length=0.019706]:16.900535,JP00024[&rate=1.4837683401159,branch_length=0.0516420000000001]:16.900535)[&rate=1.4837683401159,branch_length=0.00263935999999998,reltime=0.0214998121713999,divtime=16.9005352168376,divtime_95%_CI={16.9005352168376,16.9005352168376}]:1.398293,JP00023[&rate=1.9560933816893,branch_length=0.104332]:18.298829)[&rate=1.9560933816893,branch_length=0.00626464000000004,reltime=0.0232786343289031,divtime=18.2988286659946,divtime_95%_CI={18.2988286659946,18.2988286659946}]:2.517517,(OH848[&rate=0.595682476879594,branch_length=0.00980799999999993]:17.424906,OH840[&rate=0.595682476879594,branch_length=0.0177769999999999]:17.424906)[&rate=0.595682476879594,branch_length=0.00257000000000007,reltime=0.0221668835656597,divtime=17.4249055462599,divtime_95%_CI={17.4249055462599,17.4249055462599}]:3.39144)[&rate=1.07944918852739,branch_length=0.002417,reltime=0.0264812626178398,divtime=20.8163451797257,divtime_95%_CI={20.8163451797257,20.8163451797257}]:1.760112,OH854[&rate=1.24284263885963,branch_length=0.04745]:22.576457)[&rate=1.24284263885963,branch_length=0.00100499999999992,reltime=0.0287203675481028,divtime=22.5764569158851,divtime_95%_CI={22.5764569158851,22.5764569158851}]:0.635647,JP00178[&rate=1.05345185298994,branch_length=0.0164529999999999]:23.212103)[&rate=1.05345185298994,branch_length=0.00142200000000003,reltime=0.0295289976743769,divtime=23.2121034888664,divtime_95%_CI={23.2121034888664,23.2121034888664}]:1.061086)[&rate=1.32382060957434,branch_length=0.00480515999999998,reltime=0.0308788457912738,divtime=24.2731897651151,divtime_95%_CI={24.2731897651151,24.2731897651151}]:2.853281,JP00046[&rate=1.54669535432601,branch_length=0.0870255999999999]:27.126471)[&rate=1.54669535432601,branch_length=9.63841000000021E-4,reltime=0.0345086125174052,divtime=27.1264705237951,divtime_95%_CI={27.1264705237951,27.1264705237951}]:0.489854,((((JP00123[&rate=2.88929304590007,branch_length=0.131215]:22.830869,JP00180[&rate=2.88929304590007,branch_length=0.0536677]:22.830869)[&rate=2.88929304590007,branch_length=0.00850249999999997,reltime=0.0290440142923906,divtime=22.8308685896265,divtime_95%_CI={22.8308685896265,22.8308685896265}]:2.313241,JP00132[&rate=3.07163364067963,branch_length=0.118052]:25.144109)[&rate=3.07163364067963,branch_length=0.00701828000000004,reltime=0.0319867756755134,divtime=25.1441093748821,divtime_95%_CI={25.1441093748821,25.1441093748821}]:1.796086,JP00091[&rate=4.22141468360134,branch_length=0.353249]:26.940195)[&rate=4.22141468360134,branch_length=0.00297163999999994,reltime=0.0342716445176346,divtime=26.9401951278307,divtime_95%_CI={26.9401951278307,26.9401951278307}]:0.553355,JP00166[&rate=4.83317286680255,branch_length=0.1846]:27.49355)[&rate=4.83317286680255,branch_length=7.54871000000046E-4,reltime=0.0349755886270687,divtime=27.49355029751,divtime_95%_CI={27.49355029751,27.49355029751}]:0.122774)[&rate=2.73412618943206,branch_length=0.00329325000000003,reltime=0.0351317740193159,divtime=27.6163242408815,divtime_95%_CI={27.6163242408815,27.6163242408815}]:0.94683,JP00081[&rate=2.59272851643608,branch_length=0.0694604999999999]:28.563154)[&rate=2.59272851643608,branch_length=8.54979999997951E-6,reltime=0.0363362721923443,divtime=28.5631540843051,divtime_95%_CI={28.563154084305,28.5631540843051}]:0.002592,JP00148bis[&rate=2.91915967765301,branch_length=0.159662]:28.565746)[&rate=2.91915967765301,branch_length=0.00511919999999999,reltime=0.0363395697994581,divtime=28.5657462616094,divtime_95%_CI={28.5657462616094,28.5657462616094}]:1.37851,(((((((OH847[&rate=0.665782312860773,branch_length=0.0102139999999999]:11.094659,JP00058[&rate=0.665782312860773,branch_length=0.00864500000000001]:11.094659)[&rate=0.665782312860773,branch_length=0.00381299999999996,reltime=0.0141139369181747,divtime=11.0946591547969,divtime_95%_CI={11.0946591547969,11.0946591547969}]:4.501947,JP00026S[&rate=0.599256686657277,branch_length=0.00866999999999996]:15.596606)[&rate=0.599256686657277,branch_length=0.00160500000000008,reltime=0.0198410340884435,divtime=15.5966058064581,divtime_95%_CI={15.5966058064581,15.5966058064581}]:2.105368,JP00158[&rate=0.822726359148679,branch_length=0.0532670000000001]:17.701973)[&rate=0.822726359148679,branch_length=0.00241399999999992,reltime=0.0225193521376804,divtime=17.7019734325639,divtime_95%_CI={17.7019734325639,17.7019734325639}]:2.306469,JP00052[&rate=0.797267314448862,branch_length=0.013451]:20.008443)[&rate=0.797267314448862,branch_length=0.001031,reltime=0.0254534990422451,divtime=20.0084425633936,divtime_95%_CI={20.0084425633936,20.0084425633936}]:1.016531,(JP00115[&rate=3.44396476529734,branch_length=0.220163]:17.940634,JP00027S[&rate=3.44396476529734,branch_length=0.0280619]:17.940634)[&rate=3.44396476529734,branch_length=0.0135130999999999,reltime=0.022822961830427,divtime=17.9406344154382,divtime_95%_CI={17.9406344154381,17.9406344154382}]:3.084339)[&rate=1.65703365671463,branch_length=0.00115100000000001,reltime=0.0267466663166526,divtime=21.0249732608785,divtime_95%_CI={21.0249732608784,21.0249732608785}]:0.546022,JP00171[&rate=1.84595437049811,branch_length=0.071141]:21.570995)[&rate=1.84595437049811,branch_length=0.00467700000000004,reltime=0.0274412810550654,divtime=21.5709948146991,divtime_95%_CI={21.5709948146991,21.5709948146991}]:1.991646,(OH853[&rate=0.888516368403839,branch_length=0.013158]:19.081591,JP00170[&rate=0.888516368403839,branch_length=0.035354]:19.081591)[&rate=0.888516368403839,branch_length=0.00506499999999999,reltime=0.0242744158110529,divtime=19.0815908535515,divtime_95%_CI={19.0815908535515,19.0815908535515}]:4.48105)[&rate=1.28068757841802,branch_length=0.010397,reltime=0.0299749298140745,divtime=23.562641055018,divtime_95%_CI={23.562641055018,23.562641055018}]:6.381616)[&rate=1.93352826164731,branch_length=0.00973000000000002,reltime=0.0380932251541785,divtime=29.9442566339034,divtime_95%_CI={29.9442566339034,29.9442566339034}]:3.955743)[&rate=0.976358126332573,branch_length=0.080296,reltime=0.0431254763981868,divtime=33.9,divtime_95%_CI={33.9,33.9}]:21.1,(((JP00153[&rate=2.80201049553393,branch_length=0.0602149999999999]:5.447161,JP00155[&rate=2.80201049553393,branch_length=0.00626099999999996]:5.447161)[&rate=2.80201049553393,branch_length=0.00870700000000002,reltime=0.0069295405347404,divtime=5.44716125472358,divtime_95%_CI={5.44716125472358,5.44716125472358}]:2.442669,JP00152[&rate=2.45958290842477,branch_length=0.016697]:7.88983)[&rate=2.45958290842477,branch_length=0.010819,reltime=0.0100369521643106,divtime=7.88983002131975,divtime_95%_CI={7.88983002131974,7.88983002131975}]:3.457733,(JP00151[&rate=2.41129645818561,branch_length=0.0236839999999999]:4.337298,JP00154[&rate=2.41129645818561,branch_length=0.00747399999999998]:4.337298)[&rate=2.41129645818561,branch_length=0.0215040000000001,reltime=0.00551764131272797,divtime=4.33729795294139,divtime_95%_CI={4.33729795294139,4.33729795294139}]:7.010265)[&rate=2.43532001094281,branch_length=0.135238,reltime=0.0144356654432743,divtime=11.347562958112,divtime_95%_CI={11.347562958112,11.347562958112}]:43.652437)[&rate=0.976358126332573,branch_length=0.279464,reltime=0.0699675870767043,divtime=55.0,divtime_95%_CI={55.0,55.0}]:225.0,((SRR6920622[&rate=2.25209064444419,branch_length=0.00907499999999994]:3.020711,SRR17253351[&rate=2.25209064444419,branch_length=0.00825299999999995]:3.020711)[&rate=2.25209064444419,branch_length=0.349467,reltime=0.00384276098701098,divtime=3.02071091938475,divtime_95%_CI={3.02071091938474,3.02071091938475}]:121.979289,(ERR2040884[&rate=1.03251891633052,branch_length=0.00789899999999999]:7.26933,SRR2103719[&rate=1.03251891633052,branch_length=0.0115420000000001]:7.26933)[&rate=1.03251891633052,branch_length=0.15464,reltime=0.00924759017673868,divtime=7.26932971352919,divtime_95%_CI={7.26932971352919,7.26932971352919}]:117.73067)[&rate=1.02421434618077,branch_length=0.201956,reltime=0.159017243356146,divtime=125.0,divtime_95%_CI={125.0,125.0}]:155.0)[&rate=1.0,branch_length=0.0,reltime=0.356198625117767,divtime=280.0,divtime_95%_CI={280.0,280.0}]:69.317595,(SRR4061752[&rate=1.0,branch_length=0.030491]:0.0,SRR6920624[&rate=1.0,branch_length=0.055204]:0.0)[&rate=1.0,branch_length=0.432637,reltime=0.0,divtime=0.0,divtime_95%_CI={0.0,0.0}]:349.317595);
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchColorGradient=false;
+	set appearance.branchLineWidth=1.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#2d3680;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="reltime";
+	set branchLabels.fontName="Arial";
+	set branchLabels.fontSize=12;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=false;
+	set branchLabels.significantDigits=4;
+	set layout.expansion=0;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=0;
+	set legend.attribute=null;
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="divtime";
+	set nodeLabels.fontName="Arial";
+	set nodeLabels.fontSize=12;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=true;
+	set nodeLabels.significantDigits=4;
+	set nodeShapeExternal.colourAttribute=null;
+	set nodeShapeExternal.isShown=false;
+	set nodeShapeExternal.minSize=10.0;
+	set nodeShapeExternal.scaleType=Width;
+	set nodeShapeExternal.shapeType=Circle;
+	set nodeShapeExternal.size=4.0;
+	set nodeShapeExternal.sizeAttribute=null;
+	set nodeShapeInternal.colourAttribute=null;
+	set nodeShapeInternal.isShown=false;
+	set nodeShapeInternal.minSize=10.0;
+	set nodeShapeInternal.scaleType=Width;
+	set nodeShapeInternal.shapeType=Circle;
+	set nodeShapeInternal.size=4.0;
+	set nodeShapeInternal.sizeAttribute=null;
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=true;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=50.0;
+	set scaleAxis.minorTicks=25.0;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=true;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=12.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=0.0;
+	set tipLabels.colorAttribute="User selection";
+	set tipLabels.displayAttribute="Names";
+	set tipLabels.fontName="Arial";
+	set tipLabels.fontSize=16;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=false;
+	set trees.orderType="increasing";
+	set trees.rooting=false;
+	set trees.rootingType="User Selection";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;
+
