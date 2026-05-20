@@ -3,4 +3,5 @@
 - stomata_LDA.R provides the code to infer ploidy from stomata measurements
 - Nuclear_alignments.tar.xz folder contains all gene alignments
 - Plastid_alignment.zip is the final plastid alignment
-- Nuclear_dated_phylogeny.nex and Plastid_phylogeny.nex are both nuclear and plastid final phylogenies 
+- Nuclear_dated_phylogeny.nex and Plastid_phylogeny.nex are both nuclear and plastid final phylogenies
+- Psilotales_288.fasta is the custom target kit designed for this study
